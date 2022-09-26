@@ -1,5 +1,5 @@
 {% set name = "qcs-api-client" %}
-{% set version = "0.21.1" %}
+{% set version = "0.21.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qcs-api-client-{{ version }}.tar.gz
-  sha256: 1ff078b56ba74ac0ca7323a643517192ff37c29a1770721cc074779d39148660
+  sha256: 817c331aeaae6be01cb751c0eede84956c6b141ec31dbf6fc9f5b75959da1d4b
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
     - poetry >=1.0
   run:
     - attrs >=20.1.0,<21.0.0
-    - httpx >=0.15.0,<0.16.0
+    - httpx >=0.23.0,<0.24.0
     - iso8601 >=1.0.2,<2.0.0
     - pydantic >=1.7.2,<2.0.0
     - pyjwt >=2.4.0,<3.0.0
