@@ -1,5 +1,5 @@
 {% set name = "qcs-api-client" %}
-{% set version = "0.21.4" %}
+{% set version = "0.21.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 867cc094631a5c1b573471d17605e1a85a3039566b0b779c423fd3e4d5c1dfc8
+  sha256: 093bef9d1c735da0f3caf646e28224184a1c2f6f90257bdc675c6509c496fce2
 
 build:
   number: 0
