@@ -1,5 +1,5 @@
 {% set name = "qcs-api-client" %}
-{% set version = "0.25.4" %}
+{% set version = "0.25.5" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: ba383c2d668ee2dcb100fa46e9e2fecf172d07624bd76846dde3391c3b54f17f
+  sha256: 3c10d1ab094692370448796e114e8fbe4a65e49249fb889e87f24f33cef4bbb3
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - tenacity >=8.3.0,<9.0.0
     - pydantic-settings >=2.2.1,<3.0.0
     - attrs >=21.3.0
-    - httpx >=0.23.0,<0.24.0
+    - httpx >=0.23.0,<1.0
     - iso8601 >=1.0.2,<2.0.0
     - pydantic >=2.6.3,<3.0.0
     - pyjwt >=2.4.0,<3.0.0
